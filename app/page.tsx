@@ -11,15 +11,9 @@ import {
   FaArrowRotateLeft,
   FaGithub,
   FaLinkedin,
-  FaInstagram,
-  FaFacebook,
-  FaTwitter,
-  FaGlobe,
-  FaEnvelope,
   FaPlus,
   FaArrowUp,
   FaUsers,
-  FaCodepen,
   FaMusic,
   FaKeyboard,
   FaSun,
@@ -1389,9 +1383,9 @@ export default function WebHarmonium() {
           </div>
         </section>
 
-        {/* Enhanced Social Media Footer */}
+        {/* Footer */}
         <footer className="minimal-section rounded-2xl p-6 sm:rounded-3xl sm:p-8">
-          <div className="grid grid-cols-1 gap-6 sm:gap-8 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-6 sm:gap-8 lg:grid-cols-2">
             {/* Website Info */}
             <div className="text-center lg:text-left">
               <div className="mb-4 flex items-center justify-center gap-3 lg:justify-start">
@@ -1406,68 +1400,7 @@ export default function WebHarmonium() {
                 Professional digital harmonium experience bringing traditional Indian classical music to the modern web
                 with authentic sounds and interactive learning.
               </p>
-              <div className="text-xs text-muted-foreground">© 2025 Dhruv Akbari. All rights reserved.</div>
-            </div>
-
-            {/* Enhanced Social Links */}
-            <div className="text-center">
-              <h4 className="mb-4 text-lg font-semibold text-foreground">Connect with Developer</h4>
-              <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-                {[
-                  {
-                    href: "https://github.com/mrakbari91",
-                    icon: FaGithub,
-                    label: "GitHub",
-                  },
-                  {
-                    href: "https://www.linkedin.com/in/dhruvakbari",
-                    icon: FaLinkedin,
-                    label: "LinkedIn",
-                  },
-                  {
-                    href: "https://www.instagram.com/1bari_91/",
-                    icon: FaInstagram,
-                    label: "Instagram",
-                  },
-                  {
-                    href: "https://www.facebook.com/dhruvakbari91",
-                    icon: FaFacebook,
-                    label: "Facebook",
-                  },
-                  {
-                    href: "https://x.com/mr_akbari_",
-                    icon: FaTwitter,
-                    label: "X",
-                  },
-                  {
-                    href: "https://dhruvakbari.vercel.app",
-                    icon: FaGlobe,
-                    label: "Website",
-                  },
-                  {
-                    href: "https://codepen.io/dhruvakbari/",
-                    icon: FaCodepen,
-                    label: "CodePen",
-                  },
-                  {
-                    href: "mailto:dhruvakbari303@gmail.com",
-                    icon: FaEnvelope,
-                    label: "Email",
-                  },
-                ].map((social, i) => (
-                  <a
-                    key={i}
-                    href={social.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group hover-lift rounded-xl border border-border/80 bg-background p-4 text-center text-foreground shadow-sm transition-all hover:border-primary/40 hover:bg-secondary/35 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-                    title={social.label}
-                  >
-                    <social.icon className="mx-auto h-6 w-6 text-primary transition-transform duration-200 group-hover:scale-110" />
-                    <div className="mt-2 text-xs font-semibold">{social.label}</div>
-                  </a>
-                ))}
-              </div>
+              <div className="text-xs text-muted-foreground">© 2026 Aditya Pandey. All rights reserved.</div>
             </div>
 
             {/* Tech Stack */}
@@ -1491,9 +1424,9 @@ export default function WebHarmonium() {
                 ))}
               </div>
               <div className="mt-4 text-xs text-muted-foreground">
-                Crafted with ❤️ by <span className="font-semibold">Dhruv Akbari</span>
+                Crafted with care by <span className="font-semibold">Aditya Pandey</span>
                 <br />
-                Full Stack Developer & Music Technology Enthusiast
+                Full Stack Developer
               </div>
             </div>
           </div>
